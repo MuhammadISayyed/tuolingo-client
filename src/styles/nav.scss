@@ -1,0 +1,10 @@
+.nav-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-option {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
