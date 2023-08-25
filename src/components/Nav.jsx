@@ -1,10 +1,10 @@
-import '../styles/nav.scss';
+// import '../../index.css';
 
 export default function Nav() {
   return (
-    <div className="nav-container">
+    <div>
       <div>Tuolingo</div>
-      <div className="nav-option">
+      <div>
         <a href="#">LEARN</a>
         <a href="#">PRACTICE</a>
         <a href="#">LEADERBOARDS</a>
