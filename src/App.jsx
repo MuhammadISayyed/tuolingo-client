@@ -6,10 +6,10 @@ import '../index.css';
 
 export default function App() {
   return (
-    <div className="app">
+    <div className="grid grid-cols-4 pt-5">
       <Nav></Nav>
-      <main>
-        <Unit className></Unit>
+      <main className="col-span-2">
+        <Unit></Unit>
         <Lessons></Lessons>
       </main>
       <Progress></Progress>
