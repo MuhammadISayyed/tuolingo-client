@@ -24,7 +24,9 @@ const Nav = () => {
       <NavigationMenu.List className="list-none flex flex-col gap-7 ps-6">
         <NavigationMenu.Item>
           <NavigationMenu.Link href="#">
-            <img className="w-24 h-24" src="public/logotype.svg" alt="Duolingo logo" />
+            <img className="w-28" src="public/logotype.svg" alt="Duolingo logo" />
+            {/* <svg width={100} height={100} src="public/logotype.svg"></svg> */}
+            {/* <object data="public/logotype.svg" width={50} height={50}></object> */}
           </NavigationMenu.Link>
         </NavigationMenu.Item>
         <NavigationMenu.Item>

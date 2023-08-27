@@ -6,7 +6,7 @@ import '../index.css';
 
 export default function App() {
   return (
-    <div className="grid grid-cols-4 pt-5">
+    <div className="grid grid-auto-fit">
       <Nav></Nav>
       <main className="col-span-2">
         <Unit></Unit>
